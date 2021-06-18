@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Web Api Call</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <header>
+        <h1>Abraham Ogbumah</h1>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact Me</li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="form-area">
+            <form class="evaluate" onsubmit="return Client.handleSubmit(event)">
+                <input id="phrase" type="text" name="phrase" value="" placeholder="Name">
+                <input id="submit" type="submit" name="" value="Submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+            </form>
+        </section>
+
+        <section>
+            <strong>Form Results</strong>
+            <div id="text"></div>
+            <div id="confid"></div>
+            <div id="agree"></div>
+        </section>
+    </main>
+</body>
+
+</html>
