@@ -23,7 +23,7 @@ function handleSubmit(event) {
 
             })
     } else {
-        console.log('Please enter a sentence')
+        alert('Please enter a phrase')
     };
 }
 
